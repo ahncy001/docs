@@ -48,7 +48,7 @@ graph TB
     subgraph "현장 장치"
         CAM[AI 에지 카메라<br/>교차로/도로 영상 수집<br/>객체/행동 인식]
         SPEAKER[네트워크 스피커<br/>안내 방송]
-        SIGNAL[신호제어기 (옵션보드)<br/>신호제어 (보행연장)]
+        SIGNAL[신호제어기 옵션보드<br/>신호제어-보행연장]
         VMS[VMS 전광판<br/>정보 표시]
     end
     
