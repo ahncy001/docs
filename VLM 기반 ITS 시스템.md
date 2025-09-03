@@ -73,10 +73,10 @@ graph TB
     %% 리포트 생성
     DB --> REPORT
     
-    %% 스타일링
-    classDef center fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    classDef device fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    classDef network fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    %% 스타일링 - 밝은 색상 테마
+    classDef center fill:#e3f2fd,stroke:#1976d2,stroke-width:3px,color:#000
+    classDef device fill:#fce4ec,stroke:#c2185b,stroke-width:3px,color:#000
+    classDef network fill:#e8f5e8,stroke:#388e3c,stroke-width:3px,color:#000
     
     class VLM,DB,REPORT center
     class CAM,SPEAKER,SIGNAL,VMS device
